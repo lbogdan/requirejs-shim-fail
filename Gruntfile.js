@@ -68,12 +68,12 @@ module.exports = function(grunt) {
                         // Specific page goes here.
                         {
                             name: 'shim-only',
-                            include: ['app/shim-only'],
+                            include: ['shim-only'],
                             exclude: ['common']
                         },
                         {
                             name: 'wrapped',
-                            include: ['app/wrapped'],
+                            include: ['wrapped'],
                             exclude: ['common']
                         }
                     ]

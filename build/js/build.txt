@@ -8,11 +8,7 @@ common.js
 shim-only.js
 ----------------
 shim-only.js
-vendor/magnific-popup/magnific-popup.js
-app/shim-only.js
 
 wrapped.js
 ----------------
 wrapped.js
-vendor/magnific-popup/magnific-popup-wrapped.js
-app/wrapped.js
