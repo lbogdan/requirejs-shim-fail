@@ -1,4 +1,4 @@
-This is a proof of concept demonstrating the points in this [blog post](blog.player.me/case-requirejs/)
+This is a proof of concept demonstrating the points in this [blog post](http://blog.player.me/case-requirejs/)
 
 I included the grunt file used to compile the scripts. 
 
