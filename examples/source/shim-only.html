@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../shared/css/main.css">
+    </head>
+    <body>
+
+        <div>
+            <a class="magnificpopup" href="http://farm9.staticflickr.com/8241/8589392310_7b6127e243_b.jpg" title="Caption. Can be aligned it to any side and contain any HTML.">
+                <img src="http://farm9.staticflickr.com/8241/8589392310_7b6127e243_s.jpg" width="75" height="75">
+            </a>
+            <a class="magnificpopup" href="http://farm9.staticflickr.com/8379/8588290361_ecf8c27021_b.jpg" title="This image fits only horizontally.">
+                <img src="http://farm9.staticflickr.com/8379/8588290361_ecf8c27021_s.jpg" width="75" height="75">
+            </a>
+            <a class="magnificpopup" href="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg">
+                <img src="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg" width="107" height="75">
+            </a>
+        </div>
+
+        <div>
+            <p>Navigator:</p>
+            <ul>
+                <li>
+                    <a href="../source/shim-only.html">Source: Shim Only</a>
+                </li>
+                <li>
+                    <a href="../source/wrapped.html">Source: With Define wrap</a>
+                </li>
+                <li>
+                    <a href="../build/shim-only.html">Compiled: Shim Only (Not working!)</a>
+                </li>
+                <li>
+                    <a href="../build/wrapped.html">Compiled: With Define wrap</a>
+                </li>
+            </ul>
+        </div>
+
+        <script>
+            var require={
+              "baseUrl": "js",
+            };
+        </script>
+        <script data-main="shim-only" src="js/vendor/requirejs/require.js"></script>
+    </body>
+</html>
